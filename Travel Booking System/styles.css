@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+.search {
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.search h2 {
+    margin-bottom: 1rem;
+}
+
+.search form {
+    display: inline-block;
+}
+
+.search input {
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+}
+
+.search button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.featured-destinations {
+    text-align: center;
+}
+
+.featured-destinations h2 {
+    margin-bottom: 1rem;
+}
+
+.destination-card {
+    display: inline-block;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.destination-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.destination-card h3 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.destination-card p {
+    padding: 0 1rem 1rem;
+}
+
+/* Additional styles for card icons */
+.destination-card::before {
+    content: '\1F3EA'; /* Unicode for the airplane icon */
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
